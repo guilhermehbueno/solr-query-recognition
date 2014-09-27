@@ -1,6 +1,8 @@
 solr-query-recognition
 ======================
 
+See in: https://www.lucidchart.com/documents/view/4d2f6939-a1d5-4268-8257-66cf8e824ad3
+
 Examples:
 
 Query:'tv sony 60" '
