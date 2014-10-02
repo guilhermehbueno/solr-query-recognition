@@ -33,4 +33,7 @@ Returns:
 Recon.fromQuery("tv sony 60 polegadas").has(field("brand")) // true
 Recon.fromQuery("tv sony 60 polegadas").get(field("brand")) //sony
 Recon.fromQuery("tv sony 60 polegadas").has(field("brand").after(word("tv"))) // true
+Recon.fromQuery("tv sony 60 polegadas").has(field("brand").after(field("specification"))) // false
+Recon.fromQuery("tv sony 60 polegadas").has(field("brand").before(number("60"))) // true
+Recon.fromQuery("tv sony 60 polegadas").has(field("brand").before(number())) // true
 ```
