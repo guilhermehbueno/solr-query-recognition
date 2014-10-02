@@ -23,3 +23,10 @@ Returns:
   'maior que': 'condition',
   '60"': 'specification'
 }
+
+
+```java
+Recon.fromQuery("tv sony 60 polegadas").has(field("brand")) // true
+Recon.fromQuery("tv sony 60 polegadas").get(field("brand")) //sony
+Recon.fromQuery("tv sony 60 polegadas").has(field("brand").after(word("tv"))) // true
+```
