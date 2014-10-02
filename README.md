@@ -8,21 +8,25 @@ Examples:
 Query:'tv sony 60" '
 
 Returns:
+```javascript
 {
   'tv': 'undefined',
   'sony': 'brandName',
   '60"': 'specification'
 }
+```
 
 
 Query:'tv sony maior que 60" '
 Returns:
+```javascript
 {
   'tv': 'undefined',
   'sony': 'brandName',
   'maior que': 'condition',
   '60"': 'specification'
 }
+```
 
 
 ```java
